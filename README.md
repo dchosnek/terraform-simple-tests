@@ -8,3 +8,5 @@ To ensure authentication occurs properly, set the following environment variable
 export INTERSIGHT_API_KEY=
 export INTERSIGHT_SECRET_KEY=
 ```
+
+⚠️ The `INTERSIGHT_SECRET_KEY` variable should be a path to a file containing the secret key, and not the secret key itself.
